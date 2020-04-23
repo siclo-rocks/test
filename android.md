@@ -63,6 +63,9 @@ startActivity(sendIntent);
 ¿Que modificarías para evitar ese tipo de problemas?
 
 ##### 25.- Explica en que son diferentes Implicit y Explicit Intents.
-##### 26.- Si tu App se bloquea continuamente como lo evitarías?
+##### 27.- Que es context?
+##### 28.- Por qué no podemos ejecutar bytecode en Android?
+##### 29.- Describe el funcionamiento de Job Scheduling
+##### 30.- Si tu App se bloquea continuamente como lo evitarías?
 
 Gracias

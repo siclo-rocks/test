@@ -63,9 +63,27 @@ startActivity(sendIntent);
 ¿Que modificarías para evitar ese tipo de problemas?
 
 ##### 25.- Explica en que son diferentes Implicit y Explicit Intents.
+##### 26.- Explica que son los servicios y ejemplifica como usarlo.
 ##### 27.- Que es context?
 ##### 28.- Por qué no podemos ejecutar bytecode en Android?
 ##### 29.- Describe el funcionamiento de Job Scheduling
-##### 30.- Si tu App se bloquea continuamente como lo evitarías?
+##### 30.- Tomando en cuenta el siguiente código que opinas al respecto, hay forma de mejorarlo?, si hay forma envia la corrección, de lo contrario comenta tus observaciones sobre el mismo
+
+```
+fun getDefaultLocale(delivery: String): Locale {
+    val deliverLower = delivery.toLowerCase()
+    if (deliverLower == "germany" || deliverLower == "austria") {
+        return Locale.GER
+    }
+    if (deliverLower == "usa" || deliverLower == "great britain") {
+        return Locale.ENG
+    }
+    if (deliverLower == "france") {
+        return Locale.FRE
+    }
+    return Locale.ENG
+}
+```
+##### 31.- Si tu App se bloquea continuamente que medidas tomarias para evitarlo?
 
 Gracias
